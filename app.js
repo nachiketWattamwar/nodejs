@@ -176,7 +176,7 @@ var page = function( req, res, state, ts ) {
 
 var order = function( req, res, state, ts ) {
 
-  db.collection('gumball', function(err, collection) {
+  db.collection('gumballnew', function(err, collection) {
 
         collection.find( {serialNumber: '1234998871109'}).toArray( function(err, results) {
 
